@@ -27,7 +27,6 @@ import Filtres.RouteFilter;
 @EnableDiscoveryClient
 @EnableFeignClients("com.clientui")
 @SpringBootApplication
-
 public class ZuulGatewayApplication {
 
 	public static void main(String[] args) {
